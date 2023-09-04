@@ -1,0 +1,23 @@
+.container{
+    background-color: #202022;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.textname{
+    color: white;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6rem;
+
+}
+
+.textsub{
+    color: #be3144;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}

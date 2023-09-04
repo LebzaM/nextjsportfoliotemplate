@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    
+    background-color: #45567D;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 190vh;
+    
+    background-color: #45567D;
+
+}
+.text{
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 10%;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
+}
+
+.grid{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  margin-top: 30px;
+  
+
+
+}

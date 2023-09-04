@@ -1,0 +1,19 @@
+.container{
+    height: 10vh;
+    background-color: #be3144;
+    color: white;
+    display: flex;
+    gap: 60px;
+    flex-direction: row-reverse;
+    padding-right: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.wrapper{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    cursor: pointer;
+}
